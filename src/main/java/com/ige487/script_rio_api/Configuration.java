@@ -9,7 +9,7 @@ public abstract class Configuration {
     public static void createOriannaConfig(){
         Orianna.Configuration config = new Orianna.Configuration();
         Orianna.loadConfiguration(config);
-        Orianna.setRiotAPIKey("RGAPI-00767119-a3a9-4ce9-b77e-cc5adde2170d\n");
+        Orianna.setRiotAPIKey("RGAPI-873ed9b5-0513-43fd-8d3f-079b3c43a621");
         Orianna.setDefaultRegion(Region.NORTH_AMERICA);
     }
 }
